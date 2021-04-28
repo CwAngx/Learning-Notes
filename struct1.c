@@ -28,7 +28,7 @@ int main()
 	{
 		printf("%d ",ps->arr[i]);
 	}
-	//ÊÍ·Å
+	//é‡Šæ”¾
 	free(ps);
 	ps = NULL;
 	return 0;
