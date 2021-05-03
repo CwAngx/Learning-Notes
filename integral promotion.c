@@ -4,11 +4,11 @@ int main()
 	char a = 0xb6;
 	short b = 0xb600;
 	int c = 0xb6000000;
-	if (a == 0xb6)//运算中整型提升，a的值为-0x4a
+	if (a == 0xb6)//杩愮畻涓暣鍨嬫彁鍗囷紝a鐨勫�间负-0x4a
 		printf("a");
 	if (b == 0xb600)//-0x4a00
 		printf("b");
-	if (c == 0xb6000000)
+	if (c == 0xb6000000)//c鏃犻渶鏁村瀷鎻愬崌
 		printf("c");
 	return 0;
 }
