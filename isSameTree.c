@@ -5,7 +5,7 @@ if(p->val!=q->val) return false;
 return isSameTree(p->left,q->left)&&isSameTree(p->right,q->right);
 }
 
-/*�ٷ���
+/*¹Ù·½´ð°¸
 bool isSameTree(struct TreeNode* p, struct TreeNode* q) {
     if (p == NULL && q == NULL) {
         return true;
@@ -57,3 +57,17 @@ bool isSameTree(struct TreeNode* p, struct TreeNode* q) {
     }
     return queleft1 == queright1 && queleft2 == queright2;
 }*/
+
+/*
+public boolean isSameTree(TreeNode p, TreeNode q) {
+    if(p==null && q==null){
+        return true;
+    }
+
+    if(p!=null && q!=null && p.val==q.val  ){
+        return isSameTree(p.left,q.left) && isSameTree(p.right,q.right);
+    }else {
+        return false;
+    }
+*/
+}
