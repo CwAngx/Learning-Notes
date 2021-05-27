@@ -9,11 +9,11 @@ int main()
 	int ret = check_sys();
 	if (ret == 1)
 	{
-		printf("С��\n");
+		printf("Ð¡¶Ë\n");
 	}
 	else
 	{
-		printf("���\n");
+		printf("´ó¶Ë\n");
 	}
 	return 0;
-}
+}//普通用户基本上都是小端
