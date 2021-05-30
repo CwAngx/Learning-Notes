@@ -6,4 +6,4 @@ int main()
 	pa++;
 	printf("%s\n", *pa);
 	return 0;
-}
+}//输出at
