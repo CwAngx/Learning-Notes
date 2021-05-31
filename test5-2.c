@@ -6,4 +6,4 @@ int main()
 	//i = a++||++b||d++;
 	printf("a = %d\n b = %d\n c = %d\nd = %d\n", a, b, c, d);
 	return 0;
-}
+}//简单
